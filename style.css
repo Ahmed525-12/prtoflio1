@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* -------------------------------------------------------------------frist div --------------------------------------- */
+.frist-div{
+    border-top: 0.5px solid #eeeeee;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+.a-div1 a{
+text-decoration: none;
+border-right:0.5px solid #eeeeee ;
+border-left: 0.5px solid #eeeeee;
+padding: 24px 12px ;
+font-size: 15px;
+}
+.a-div1 a:hover{
+    background-color: rgb(226, 226, 226);
+    color: rgb(204, 154, 26) !important;
+}
+.p-font{
+    font-size: 14px;
+    margin-top: 8px;
+}
+/* -------------------------------------------------------------------end div --------------------------------------- */
+/* ------------------------------------------------------------------- start nav --------------------------------------- */
+.fixed-top.scrolled{
+    top: 0 !important;
+}
+.a-navicon{
+    font-size: 30px;
+}
+.button-a{
+    background-color: white !important;
+    border: 0;
+    outline: 0;
+    
+}
+.button-a:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,1) !important;
+    outline: 0 white !important;
+    border: 0;
+}
+.font-ulnav{
+    font-size: 18px;
+}
+.fixed-top{
+    top: 51px !important;
+    z-index: 100;
+}
+/* ------------------------------------------------------------------- end nav --------------------------------------- */
+/* ------------------------------------------------------------------- start header --------------------------------------- */
+.img_carousel{
+    background-image: url(img/carousel\ header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+.header{
+    margin-top: 73px;
+}
+
+.font-size1{
+    font-size: 60px;
+}
+.font-sze2{
+    font-size: 20px;
+}
+.button-header{
+    padding: 15px 20px;
+    border: 0.5px solid #eeeeee;
+    outline: none;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.button-header:hover{
+    opacity: 0.5;
+}
+.img_carousel2{
+    background-image: url(img/img\ header2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+.img_carousel3{
+    background-image: url(img/img\ header3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+.blur_img{
+    position: relative;
+}
+.paddingtop{
+    padding-top: 15pc;
+    animation-name:text;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    position: absolute;
+    opacity: 0;
+
+}
+@keyframes text{
+    0%{
+        top: -2px;
+        
+        
+    }
+  
+    100%{
+        top: -25px;
+        opacity: 1;
+    }
+}
+/* ------------------------------------------------------------------- end header --------------------------------------- */
+/* ------------------------------------------------------------------- start section1 --------------------------------------- */
+.h2-section1{
+    font-size: 32px;
+}
+.p-section1{
+    font-size: 1.1em;
+}
+/* ------------------------------------------------------------------- end section1 --------------------------------------- */
+/* ------------------------------------------------------------------- start section2 --------------------------------------- */
+.div-section{
+    border: 0.5px solid #cccccc;
+    position: relative;
+    cursor: pointer;
+}
+.p-section21{
+    font-size: 20px;
+    float: left;
+}
+.p-section22{
+    font-size: 17px;
+    clear: both;
+}
+.h4-section2{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 7px 83px;
+    opacity: 0;
+    top: 14pc;
+    left: 1px;
+}
+.div-section:hover .h4-section2{
+    background-color: white;
+    color: #000000;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-name:h4section2;
+    cursor: pointer;
+   
+}
+.h4-section2:hover{
+    background-color: #e6bf8c !important;
+    color: white !important;   
+}
+.span-section2{
+    left: 9pc;
+    position: absolute;
+    top: 18.5pc;
+    opacity: 0;  
+    float: right;
+}
+.div-section:hover .span-section2{
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    animation-name:h4section2;
+    cursor: pointer; 
+}
+@keyframes h4section2 {
+    
+    to{
+        opacity: 1;
+    }
+}
+.img-fluid{
+    position: relative;
+}
+/* ------------------------------------------------------------------- end section 2 --------------------------------------- */
+/* ------------------------------------------------------------------- start section 3 --------------------------------------- */
+.h-font{
+    font-size: 32px;
+}
+/* ------------------------------------------------------------------- end section 3 --------------------------------------- */
+/* ------------------------------------------------------------ start section 7-------------------------------------------- */
+.icon-section7{
+    color: #e6bf8c;
+}
+/* --------------------------------------------------------------- end section 7 ------------------------------------------ */
+/* --------------------------------------------------------------- start section 8 ------------------------------------ */
+.icon_section1{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #e6bf8c;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 88px;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------------------------------- end section 8 ------------------------------------ */
+/* --------------------------------------------------------------- start section 9 ------------------------------------ */
+.bg{
+    background-image: url(img/before\ footer.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.button-sec9{
+    padding: 17px 26px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+}
+.button-sec9:hover{
+background-color: #fff;
+color: #000;
+}
+
+/* ----------------------------------------------------------------- end section 9 ------------------------------------ */
+/* ------------------------------------------------------------------ start section 10 ------------------------------- -*/
+.ul_section7 {
+    list-style: none;
+}
+
+.li1_section7 {
+    color: rgb(167, 163, 163);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(24, 24, 24, 0.5);
+    padding-left: 2px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.li1_section7::before {
+    content: ">";
+    padding-right: 10px;
+}
+
+
+
+.li_section7 {
+    color: rgb(167, 163, 163);
+    padding-left: 2px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(29, 24, 24, 0.473);
+}
+.imgbottom{
+    border-bottom: 1px solid rgba(29, 24, 24, 0.473);
+}
+/* ------------------------------------------------------------------end section 10 ----------------------------------- */
+/* ------------------------------------------------------------------- footer ----------------------------------------- */
+.footer{
+    background-color: #000;
+}
+.face1 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #535353;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: rgba(0,0,0,0.08);
+    transition: color .3s, background-color .3s, border-color .3s;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+}
+
+.face1:hover {
+    background-color: #385998;
+    color: whitesmoke;
+}
+
+.face3 {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #535353;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: rgba(0,0,0,0.08);
+    transition: color .3s, background-color .3s, border-color .3s;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+}
+
+.face3:hover {
+    background-color: #62c8f8;
+    color: whitesmoke;
+}
+.face {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #535353;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background: rgba(0,0,0,0.08);
+    transition: color .3s, background-color .3s, border-color .3s;
+    overflow: hidden;
+    position: relative;
+    border-radius: 100%;
+}
+
+.face:hover {
+    background-color: #385998;
+    color: whitesmoke;
+}
+/* ---------------------------------------------------------------end footer ------------------------------------------ */
+/* ---------------------------------------------------------------top button-------------------------------------- */
+.i_button_top{
+    display: inline-block;
+    color: #fff !important;
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+.a_button_top{
+    display: none;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.8);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+}
+.a_button_top:hover{
+    background: rgb(0, 0, 0);
+    opacity: .5;
+}
+.a_button_top.scrollh{
+    display: block;
+}
+
+/* ----------------------------------------------------------------end top button--------------------------------- */
